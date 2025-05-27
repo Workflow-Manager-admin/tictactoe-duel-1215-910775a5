@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TicTacToeContainer from './components/TicTacToe/TicTacToeContainer';
 
 function App() {
   return (
@@ -18,15 +19,12 @@ function App() {
       <main>
         <div className="container">
           <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">tictactoe_duel</h1>
-            
+            <div className="subtitle">Welcome to</div>
+            <h1 className="title">TicTacToe Duel</h1>
             <div className="description">
-              Start building your application.
+              Classic game of X's and O's. Get three in a row to win!
             </div>
-            
-            <button className="btn btn-large">Button</button>
+            <TicTacToeContainer />
           </div>
         </div>
       </main>
